@@ -31,7 +31,7 @@ public class PlayerMove : MonoBehaviour {
 	}
     void Move()
     {
-        //this.transform.position += new Vector3(0, 0, speed * Time.deltaTime);
+        this.transform.position += new Vector3(0, 0, speed * Time.deltaTime);
 
         //右移動
         if (Input.GetKey("right") || rightMove == true)
